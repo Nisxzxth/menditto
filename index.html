@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menditto</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="img/pic.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="connect.html">Connect Us</a></li>
+            </ul>
+
+            <div class="icon">
+              <a href="#" id="login-trigger"> Get Account</a>
+            </div>
+            
+            <div id="login-popup" class="popup">
+              <h2>Let's Get into your Account</h2>
+              <img src="img/up.png" alt="">
+              <div class="login-options">
+                <a href="#" id="seeker-login-trigger">Register as Seeker</a>
+                <a href="#" id="doer-login-trigger">Register as Doer</a>
+              </div>
+              <img src="img/in.png" alt="">
+              <div class="login-options">
+                <a href="#" id="seeker-logup-trigger">Sign in as Seeker</a>
+                <a href="#" id="doer-logup-trigger">Sign in as Doer</a>
+              </div>
+              <a href="#" class="close-popup" id="cp">&times;</a>
+            </div>
+            
+            <div id="seeker-login-form" class="popup">
+              <h2>Hey Seeker</h2>
+              <form class="seekerform">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="number" placeholder="Phone Number" required>
+                <input type="password" placeholder="Create your Password" required>
+                <button type="submit">Create Account</button>
+              </form>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+            
+            <div id="doer-login-form" class="popup">
+              <h2>Hey Doer</h2>
+              <form class="doerform">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="number" placeholder="Phone Number" required>
+                <input type="password" placeholder="Create your Password" required>
+                <button type="submit">Create Account</button>
+              </form>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+
+            <div id="seeker-logup-form" class="popup">
+              <h2>Hey Seeker</h2>
+              <form class="seekerform">
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Submit</button>
+              </form>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+            
+            <div id="doer-logup-form" class="popup">
+              <h2>Hey Doer</h2>
+              <form class="doerform">
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Submit</button>
+              </form>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+            
+
+        </nav>
+
+        <div class="main">
+
+            <div class="men_text">
+                <h1>Pick your on-demand <br><span>Doer!</span></h1>
+            </div>
+
+            <div class="main_image">
+                <img src="/img/webmod.png">
+            </div>
+
+        </div>
+
+        <div class="search">
+            <input  type="text" placeholder="Search">
+            <a href=""></a>
+        </div>
+
+        <div class="main_btn">
+            <a id="heys">Hey Seeker!</a>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="main_btn2">
+            <a id="heyd">Hey Doers!</a>
+        </div>
+
+    </section>
+
+    <div class="container">
+        <div class="bar">
+            <div id="seeker" class="segment">Seeker</div>
+            <div id="doer" class="segment">Doer</div>
+        </div>
+    </div>
+
+    <div id="whoseeker" class="content">
+        <div class="container2">
+            <div class="boxes">
+              <div class="box" data-image="img/home.png">
+                <img src="img/search.png">
+                <p>Domestic Care Seekers</p>
+              </div>
+              <div class="box" data-image="img/v2.png">
+                <img src="img/car.png" >
+                <p>Automation Care Seekers</p>
+              </div>
+              <div class="box" data-image="img/v3.png">
+                <img src="/img/man.png">
+                <p>Personal Care Seekers</p>
+              </div>
+              <div class="box" data-image="img/v4.png">
+                <img src="img/tool.png">
+                <p>Technical Care Seekers</p>
+              </div>
+            </div>
+            <div class="image-container">
+                <img id="right-image" src="img/home.png">
+              </div>
+        </div>        
+      <div class="hdws">
+        <h2>How Does it Works for <br> <span>Seekers</span></h2>
+        <div class="slides">   
+          <img src="img/9.png">
+          <img src="img/5.png">
+          <img src="img/6.png">
+          <img src="img/7.png">
+          <img src="img/8.png">
+        </div>
+        <br>
+      </div>
+    </div>
+
+  <div id="whodoer" class="content" style="display: none;">
+    <table border="0px" align="center" class="tab">
+      <thead>
+          <tr class="img">
+            <th style="padding: 20px;"><img src="img/1st.png" ></th>
+            <th style="padding: 20px;"><img src="img/2nd.png" style="height: 220px;"></th>
+            <th style="padding: 20px;"><img src="img/3rd.png"></th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="color: #f7931e; font-size: 20px; font-weight: bold;">Remote Work Flexibility</td>
+          <td style="color: #f7931e; font-size: 20px; font-weight: bold;">Enhanced Client Acquisition</td>
+          <td style="color: #f7931e; font-size: 20px; font-weight: bold;">Hassle-Free Payments</td>
+        </tr>
+        <tr>
+          <td>Doers can enjoy flexible work opportunities, including remote work and part-time or full-time work, allowing them to work on projects that align with their skills and interests.</td>
+          <td>Menditto enhances online presence, streamlines client acquisition, and builds a strong reputation through positive reviews and ratings, attracting more clients.</td>
+          <td>Menditto provides secure payments, efficient project management, and reduced administrative overhead, allowing Doers to focus on delivering high-quality services.</td>
+        </tr>
+      </tbody>
+  </table>
+  <div class="hdwd">
+    <h2>How Does it Works for <br> <span>Doers</span></h2>
+      <div class="slidez">   
+        <img src="img/9.png">
+        <img src="img/d1.png">
+        <img src="img/d2.png">
+        <img src="img/d3.png">
+        <img src="img/d4.png">
+      </div>
+    <br>
+    <br>
+  </div>
+  </div>
+  <footer>
+    <div class="footer_main">
+        <div class="footer_tag">
+            <h2>Quick Link</h2>
+            <p><a href="index.html" style="text-decoration: none; color: black;">Home</a></p>
+            <p><a href="about.html" style="text-decoration: none; color: black;">About</a></p>
+            <p><a href="service.html" style="text-decoration: none; color: black;">Services</a></p>
+            <p><a href="gallery.html" style="text-decoration: none; color: black;">Gallery</a></p>
+            <p><a href="review.html" style="text-decoration: none; color: black;">Reviews</a></p>
+            <p><a href="connect.html" style="text-decoration: none; color: black;">Connect Us</a></p>
+        </div>
+        <div class="footer_tag">
+          <h2>Terms</h2>
+          <p><a href="term.html" style="text-decoration: none; color: black;">Terms and Condition</a></p>
+          <p>Seekers - Terms</p>
+          <p>Doer - Terms</p>
+          <p>Privacy Policy</p>
+      </div>
+      <div class="footer_tag">
+        <h2>Contact</h2>
+        <p>+0000 0000</p>
+        <p>services@menditto.com</p>
+        <p>menditto.gmail.com</p>
+        <p>menditto.in</p>
+      </div>
+
+        <div class="footer_tag">
+          <br>
+            <h2>Follows</h2>
+            <img src="img/whatsapp.png">
+            <img src="img/instagram.png">
+            <img src="img/facebook.png">
+            <img src="img/linkedin.png">
+        </div>
+
+        <div class="footer_tag">
+          <br>
+          <img style="width: 190px;" src="img/pl.png">
+        </div>
+    </div>
+
+    <p class="end">Design by ©<span><i class="fa-solid fa-face-grin"></i><a href="https://nisxzxth.github.io/profilecard/">Nishanth</a></span></p>
+
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

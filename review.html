@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menditto</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <link rel="stylesheet" href="rstyle.css">
+</head>
+<body>
+
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="img/pic.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="review.html"><span>Review</span></a></li>
+                <li><a href="connect.html">Connect Us</a></li>
+            </ul>
+
+            <div class="icon">
+              <a href="#" id="login-trigger"> Get Account</a>
+            </div>
+            
+            <div id="login-popup" class="popup">
+              <h2>Let's Get into your Account</h2>
+              <img src="img/up.png" alt="">
+              <div class="login-options">
+                <a href="#" id="seeker-login-trigger">Register as Seeker</a>
+                <a href="#" id="doer-login-trigger">Register as Doer</a>
+              </div>
+              <img src="img/in.png" alt="">
+              <div class="login-options">
+                <a href="#" id="seeker-logup-trigger">Sign in as Seeker</a>
+                <a href="#" id="doer-logup-trigger">Sign in as Doer</a>
+              </div>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+            
+            <div id="seeker-login-form" class="popup">
+              <h2>Hey Seeker</h2>
+              <form class="seekerform">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="number" placeholder="Phone Number" required>
+                <input type="password" placeholder="Create your Password" required>
+                <button type="submit">Create Account</button>
+              </form>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+            
+            <div id="doer-login-form" class="popup">
+              <h2>Hey Doer</h2>
+              <form class="doerform">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="number" placeholder="Phone Number" required>
+                <input type="password" placeholder="Create your Password" required>
+                <button type="submit">Create Account</button>
+              </form>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+
+            <div id="seeker-logup-form" class="popup">
+              <h2>Hey Seeker</h2>
+              <form class="seekerform">
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Submit</button>
+              </form>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+            
+            <div id="doer-logup-form" class="popup">
+              <h2>Hey Doer</h2>
+              <form class="doerform">
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Submit</button>
+              </form>
+              <a href="#" class="close-popup">&times;</a>
+            </div>
+        </nav>
+        </section>
+         
+        
+        <div class="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="re">
+                <div class="review">
+                    <img src="img/user.png" alt="User 1">
+                    <h3>User 1</h3>
+                    <p>Menditto was a lifesaver! I needed urgent help with my plumbing issue, and within hours, a skilled plumber was at my doorstep. Highly recommended!</p>
+                    <div class="rating">★★★★★</div>
+                  </div>
+                  <div class="review">
+                    <img src="img/user.png" alt="User 2">
+                    <h3>User 2</h3>
+                    <p>I was impressed with the quality of service I received from Menditto. The electrician was professional, efficient, and fixed the problem quickly. I'll definitely use Menditto again</p>
+                    <div class="rating">★★★★</div>
+                  </div>
+                  <div class="review">
+                      <img src="img/user2.png" alt="User 2">
+                      <h3>User 3</h3>
+                      <p>The platform was a bit confusing to use at first</p>
+                      <div class="rating">★★</div>
+                  </div>
+                  <div class="review">
+                      <img src="img/user.png" alt="User 2">
+                      <h3>User 4</h3>
+                      <p>I've used Menditto for various services, from home cleaning to appliance repair. The platform is easy to use, and the service providers are reliable. I'm a satisfied customer</p>
+                      <div class="rating">★★★★★</div>
+                  </div>
+            </div>
+        </div>
+        <div class="faq-container">
+          <h2 style="padding: 20px;">Common Questions : </h2>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span><b>How can Menditto ensure the safety and reliability of Doers, particularly for those who may not have formal certifications or extensive work histories?</b></span>
+              <span class="arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+            <p>At Menditto, we prioritize the safety and security of both Seekers and Doers. To build trust and ensure reliable service delivery, we implement the following measures:
+
+              <br><b>Enhanced Verification:</b> We conduct thorough background checks and identity verification for all Doers whenever possible. While limitations may exist for informal labor, we gather as much information as possible to ensure user safety.
+              <br><b>Transparent Profiles:</b> Doers are encouraged to create detailed profiles showcasing their skills, experience, and client testimonials. We enable Seekers to easily view these profiles and read reviews from previous clients.
+              <br><b>Clear Service Agreements: </b>We emphasize the importance of clear and concise service agreements for all projects, outlining the scope of work, payment terms, timelines, and expectations for both parties.
+              <br><b>Secure Payment System:</b> We utilize a secure payment system that protects both Seekers and Doers from fraudulent transactions.
+              <br><b>Dispute Resolution Process: </b>We have a clear and accessible process for resolving any disputes that may arise between Seekers and Doers.
+              <br><b>Community Building: </b>We foster a positive and supportive community by encouraging open communication and positive feedback between Seekers and Doers.
+              By implementing these measures, Menditto strives to create a safe and trustworthy platform for all users, ensuring a positive experience for both Seekers and Doers.</p>  
+            </div>
+          </div>
+        
+          <div class="faq-item">
+            <div class="faq-question">
+              <span><b>How does Menditto plan to address potential concerns regarding data privacy and security for both Seekers and Doers?</b></span>
+              <span class="arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+              <p>Menditto prioritizes data security and privacy by encrypting sensitive data, storing it securely on servers with robust access controls, conducting regular security audits, complying with data privacy regulations like GDPR and CCPA, and maintaining a transparent data privacy policy. These measures aim to build trust with users and ensure a safe and secure experience on the Menditto platform, ensuring a secure and efficient data management process.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span><b>How will Menditto handle disputes or disagreements that may arise between Seekers and Doers?</b></span>
+              <span class="arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+              <p>Menditto is dedicated to fair and efficient dispute resolution. They offer a transparent process that includes mediation, escalated disputes to a designated team, fair and objective evaluation, and open communication. They encourage amicable resolution through mediation and maintain transparency throughout the process to ensure a fair and equitable outcome for all parties involved.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span><b>How does Menditto plan to prevent the platform from being misused by scammers or fraudulent individuals?</b></span>
+              <span class="arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+              <p>Menditto uses proactive account monitoring, robust verification processes, secure communication channels, user education, and collaboration with law enforcement to prevent misuse and protect users from fraudulent activity. They monitor suspicious behavior, implement robust identity verification and background checks, provide secure communication channels for Seekers and Doers, educate users about potential scams, and collaborate with law enforcement to investigate and prevent fraudulent activity. These measures aim to create a safe environment for all users.</p>
+            </div>
+          </div>
+        </div>
+        <footer>
+            <div class="footer_main">
+                <div class="footer_tag">
+                    <h2>Quick Link</h2>
+                    <p><a href="index.html" style="text-decoration: none; color: black;">Home</a></p>
+                    <p><a href="about.html" style="text-decoration: none; color: black;">About</a></p>
+                    <p><a href="service.html" style="text-decoration: none; color: black;">Services</a></p>
+                    <p><a href="gallery.html" style="text-decoration: none; color: black;">Gallery</a></p>
+                    <p><a href="review.html" style="text-decoration: none; color: black;">Reviews</a></p>
+                    <p><a href="connect.html" style="text-decoration: none; color: black;">Connect Us</a></p>
+                </div>
+                <div class="footer_tag">
+                <h2>Terms</h2>
+                <p><a href="term.html" style="text-decoration: none; color: black;">Terms and Condition</a></p>
+                <p>Seekers - Terms</p>
+                <p>Doer - Terms</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p>+0000 0000</p>
+                <p>services@menditto.com</p>
+                <p>menditto.gmail.com</p>
+                <p>menditto.in</p>
+            </div>
+
+                <div class="footer_tag">
+                <br>
+                    <h2>Follows</h2>
+                    <img src="img/whatsapp.png">
+                    <img src="img/instagram.png">
+                    <img src="img/facebook.png">
+                    <img src="img/linkedin.png">
+                </div>
+
+                <div class="footer_tag">
+                <br>
+                <img style="width: 190px;" src="img/pl.png">
+                </div>
+            </div>
+
+            <p class="end">Design by ©<span><i class="fa-solid fa-face-grin"></i><a href="https://nisxzxth.github.io/profilecard/">Nishanth</a></span></p>
+
+        </footer>
+        <script src="gscript.js"></script>
+    </body>
+</html>
